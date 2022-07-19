@@ -2,25 +2,11 @@
     
 }
 
-.container {
-
-    
+#awesome__container {
+    padding: 80px 0;
 }
 
-.line {
-    height: 2px;
-    width: 64px;
-    border-top: 1px solid #E72424;
-    margin: 0 auto 34px;
-    
-}
-
-.description {
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 14px;
-    color:  #86878B;
-    text-align: center;
+#awesome__description {
     margin-bottom: 68px;
 }
 
