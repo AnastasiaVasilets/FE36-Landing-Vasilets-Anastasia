@@ -1,0 +1,61 @@
+#price {
+    background-color: #F5F5F5;    ;
+}
+
+#price__container {
+    padding: 15px;
+}
+
+#price__description {
+    margin-bottom: 62px;
+}
+
+.price__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    width: 340px;
+    text-align: center;
+}
+
+.price__list__name {
+    line-height: 50px;
+    background-color: #333333;
+    color: #ffffff;
+    margin-bottom: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+
+.price__list__amount {
+    line-height: 100px;
+    background-color: #333333;
+    color: #ffffff;
+    margin-bottom: 2px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Raleway';
+}
+
+.price__list__time-of-usage {
+    line-height: 50px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+
+
+.price__list__advantage {
+    line-height: 40px;
+    background-color: #FFFFFF;
+    color: #86878B;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
