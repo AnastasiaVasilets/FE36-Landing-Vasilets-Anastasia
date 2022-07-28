@@ -1,0 +1,85 @@
+#customers {
+    
+}
+
+.customer__card-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.customer__card {
+    width: 298px;
+    margin: 0 15px;
+}
+
+.customer__review {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    background-color: #E2E2E2;
+    margin-bottom: 22px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.customer__review::after {
+    content: "";
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 20px solid #E2E2E2;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    top: 38px;
+    left: -96px;
+}
+
+.customer__review p {
+    padding: 9px 22px 6px 23px;
+    margin-bottom: -10px;
+}
+
+.customer__info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.customer__img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.customer__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+.customer__name-and-job {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.customer__name {
+   text-align: end;
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 20px;
+   color: #333333;
+}
+
+.customer__job {
+    text-align: end;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+}

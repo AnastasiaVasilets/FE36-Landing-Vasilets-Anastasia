@@ -1,0 +1,91 @@
+#axure {
+    background: url(../img/axure_background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+       
+}  
+
+
+#axure::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: -1;
+}
+
+#axure__container {
+    
+
+}
+
+#axure__title {
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#axure__description {
+    margin-bottom: 57px;
+    color:#ffffff;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.buttons {
+  width: 135px;
+  line-height: 42px;
+  margin: auto;
+  display: block;
+  border: 1px solid #ffffff;
+  
+    
+}
+
+.buttons:hover {
+    transition: 0.2s;
+    background-color: rgba(20, 20, 20, 0.5);
+    border-color: black;
+    color: #ffffff;
+    box-shadow: 5px 10px 40px 1px rgba(10, 10, 10, 0.5);
+    
+}
+
+
+
+.button__download {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+       
+}
+
+.button__download a {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+
+.button__download a:visited {
+    color:  #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+
+

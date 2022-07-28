@@ -1,9 +1,10 @@
 #price {
-    background-color: #F5F5F5;    ;
+    background-color: #F5F5F5;    
+    margin-bottom: -80px 0;
 }
 
 #price__container {
-    padding: 15px;
+   
 }
 
 #price__description {
@@ -13,14 +14,19 @@
 .price__list {
     display: flex;
     justify-content: space-between;
+    margin: 0 -15px;
+    flex-wrap: wrap;
 }
 
 ul {
     width: 340px;
     text-align: center;
+    margin: 0 15px;
+    list-style-type: none;
 }
 
 .price__list__name {
+    text-align: center;
     line-height: 50px;
     background-color: #333333;
     color: #ffffff;
@@ -31,6 +37,7 @@ ul {
 }
 
 .price__list__amount {
+    text-align: center;
     line-height: 100px;
     background-color: #333333;
     color: #ffffff;
@@ -41,6 +48,7 @@ ul {
 }
 
 .price__list__time-of-usage {
+    text-align: center;
     line-height: 50px;
     background-color: #333333;
     color: #ffffff;
@@ -51,6 +59,7 @@ ul {
 
 
 .price__list__advantage {
+    text-align: center;
     line-height: 40px;
     background-color: #FFFFFF;
     color: #86878B;
